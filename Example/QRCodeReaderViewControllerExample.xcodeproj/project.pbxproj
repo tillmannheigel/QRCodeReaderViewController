@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50D81DC71D08323E00A5A8C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D81DC61D08323E00A5A8C2 /* Launch Screen.storyboard */; };
 		CE29601E1987F124008FA93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29601D1987F124008FA93B /* main.m */; };
 		CE2960211987F124008FA93B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2960201987F124008FA93B /* AppDelegate.m */; };
 		CE2960241987F124008FA93B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2960231987F124008FA93B /* ViewController.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50D81DC61D08323E00A5A8C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CE2960181987F124008FA93B /* QRCodeReaderViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReaderViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE29601C1987F124008FA93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE29601D1987F124008FA93B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				CE2960221987F124008FA93B /* ViewController.h */,
 				CE2960231987F124008FA93B /* ViewController.m */,
 				CE2960251987F124008FA93B /* Main.storyboard */,
+				50D81DC61D08323E00A5A8C2 /* Launch Screen.storyboard */,
 				CE2960281987F124008FA93B /* Images.xcassets */,
 				CE29601B1987F124008FA93B /* Supporting Files */,
 			);
@@ -202,7 +205,7 @@
 				TargetAttributes = {
 					CE2960171987F124008FA93B = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 5SJ773RP6R;
+						DevelopmentTeam = VAA7D66BDK;
 					};
 					CE29602D1987F124008FA93B = {
 						CreatedOnToolsVersion = 6.0;
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D81DC71D08323E00A5A8C2 /* Launch Screen.storyboard in Resources */,
 				CE2960271987F124008FA93B /* Main.storyboard in Resources */,
 				CE2960291987F124008FA93B /* Images.xcassets in Resources */,
 			);
@@ -383,7 +387,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QRCodeReaderViewControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yannickloriot.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = de.tillmannheigel.qrcodereader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -398,7 +402,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QRCodeReaderViewControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yannickloriot.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = de.tillmannheigel.qrcodereader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
